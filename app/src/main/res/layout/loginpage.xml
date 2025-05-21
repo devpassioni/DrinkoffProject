@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TOPO - Banner amarelo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFD600"
+            android:padding="16dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:weightSum="1">
+
+            <!-- Logo -->
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/logodrinkoff"
+                android:contentDescription="Logo" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.5" />
+
+            <!-- Botões Entrar e Cadastro -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+
+                <Button
+                    android:id="@+id/btnEntrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Entrar"
+                    android:textColor="#000000"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_marginEnd="8dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:text="Cadastro"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Banner Promocional (Imagem ou espaço visual) -->
+        <ImageView
+            android:id="@+id/bannerPromocional"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/bannerdrinkoff"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="8dp" />
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <!-- Campo de Pesquisa -->
+            <EditText
+                android:id="@+id/searchBar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="🔍 Procure o seu lugar favorito"
+                android:background="@drawable/rounded_search_background"
+                android:paddingHorizontal="16dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:drawableStart="@android:drawable/ic_menu_search"
+                android:drawablePadding="8dp" />
+
+            <!-- Título do hub -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explore por Categoria"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#D2691E"
+                android:layout_marginTop="24dp" />
+
+            <!-- HUB de Categorias -->
+            <GridLayout
+                android:id="@+id/hubGrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:layout_marginTop="16dp"
+                android:alignmentMode="alignMargins"
+                android:rowOrderPreserved="false"
+                android:useDefaultMargins="true">
+
+                <!-- Vinho -->
+                <LinearLayout
+                    android:id="@+id/cardVinho"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:padding="16dp"
+                    android:background="@drawable/rounded_card"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/drinkoffvinho"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vinho"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+
+                <!-- Cerveja -->
+                <LinearLayout
+                    android:id="@+id/cardCerveja"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:padding="16dp"
+                    android:background="@drawable/rounded_card"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/drinkoffcerveja"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cerveja"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+
+                <!-- Beba em casa -->
+                <LinearLayout
+                    android:id="@+id/cardCasa"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:padding="16dp"
+                    android:background="@drawable/rounded_card"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/drinkoffbebaemcasa"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Beba em Casa"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+
+                <!-- Sem álcool -->
+                <LinearLayout
+                    android:id="@+id/cardSemAlcool"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:padding="16dp"
+                    android:background="@drawable/rounded_card"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/drinknoalcool"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sem Álcool"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+
+                <!-- Drinks -->
+                <LinearLayout
+                    android:id="@+id/cardDrinks"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:padding="16dp"
+                    android:background="@drawable/rounded_card"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/drinkoffdrinks"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Drinks"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+
+                <!-- Destilado -->
+                <LinearLayout
+                    android:id="@+id/cardDestilado"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:padding="16dp"
+                    android:background="@drawable/rounded_card"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/drinkoffdestilados"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Destilado"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </GridLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
