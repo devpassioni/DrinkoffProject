@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFF8F0">
+
+    <ImageView
+        android:id="@+id/imgSuccess"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_check_circle"></ImageView> <!-- ícone de sucesso, use um drawable apropriado -->
+
+    <TextView
+        android:id="@+id/txtPedidoConcluido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pedido Concluído!"
+        android:textSize="28sp"
+        android:textColor="#D2691E"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/txtMensagemAgradecimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obrigado por comprar conosco. Seu pedido está a caminho!"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="16dp" />
+
+    <Button
+        android:id="@+id/btnVoltarHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar para Home"
+        android:backgroundTint="#D2691E"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>

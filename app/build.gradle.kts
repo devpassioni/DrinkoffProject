@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+
     namespace = "com.example.drinkoff"
     compileSdk = 35
 
@@ -33,9 +34,13 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
+    implementation("com.google.code.gson:gson:2.10.1")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

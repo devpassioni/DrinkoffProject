@@ -31,31 +31,14 @@
                 android:layout_height="1dp"
                 android:layout_weight="0.5" />
 
-            <!-- Botões Entrar e Cadastro -->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="end">
-
-                <Button
-                    android:id="@+id/btnEntrar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Entrar"
-                    android:textColor="#000000"
-                    android:backgroundTint="#FFFFFF"
-                    android:layout_marginEnd="8dp" />
-
-            </LinearLayout>
-
+            <!-- Botão Logout -->
             <Button
-                android:id="@+id/btnCadastro"
+                android:id="@+id/btnLogout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#FFFFFF"
-                android:text="Cadastro"
-                android:textColor="#000000" />
+                android:text="Logout"
+                android:textColor="#000000"
+                android:backgroundTint="#FFFFFF" />
         </LinearLayout>
 
         <!-- Banner Promocional (Imagem ou espaço visual) -->
@@ -126,7 +109,7 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:src="@drawable/drinkoffvinho"
-                         />
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -154,7 +137,7 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:src="@drawable/drinkoffcerveja"
-                         />
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -182,7 +165,7 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:src="@drawable/drinkoffbebaemcasa"
-                         />
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -210,7 +193,7 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:src="@drawable/drinknoalcool"
-                         />
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -238,7 +221,7 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:src="@drawable/drinkoffdrinks"
-                         />
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -266,7 +249,7 @@
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:src="@drawable/drinkoffdestilados"
-                         />
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
