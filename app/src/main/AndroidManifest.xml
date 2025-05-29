@@ -26,6 +26,8 @@
         <!-- Tela de Cadastro registrada -->
         <activity android:name=".CadastroActivity" />
         <activity android:name=".HomeActivity" />
+        <activity android:name=".ResultadoActivity"/>
+
 
     </application>
 
