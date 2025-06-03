@@ -1,6 +1,6 @@
 package model
 data class Restaurante(
     val nome: String,
-    val descricao: String,
-    val imagemResId: Int
+    val imagem: String,
+    val categorias: Map<String, List<String>>
 )

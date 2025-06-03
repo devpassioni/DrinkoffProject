@@ -1,11 +1,13 @@
 package com.example.drinkoff
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import model.Restaurante
 
 class RestauranteAdapter(private val lista: List<Restaurante>) :
     RecyclerView.Adapter<RestauranteAdapter.ViewHolder>() {
@@ -29,22 +31,25 @@ class RestauranteAdapter(private val lista: List<Restaurante>) :
         val restaurante = lista[position]
         holder.nome.text = restaurante.nome
 
-        // Junta as categorias num texto simples pra descrição
         val categoriasTexto = restaurante.categorias.keys.joinToString(", ")
         holder.descricao.text = categoriasTexto
 
-        // Info fixa por enquanto, pode ser melhorado com dados reais
-        holder.info.text = "⭐ 4.8 · 30–40 min · 2km"
+        holder.info.text = "Disponivel agora"
 
-        // Carregar imagem do drawable pelo nome (removendo extensão)
         val context = holder.itemView.context
         val imageName = restaurante.imagem.removeSuffix(".png")
         val resId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
         if (resId != 0) {
             holder.imagem.setImageResource(resId)
         } else {
-            // Imagem padrão caso não encontre
             holder.imagem.setImageResource(R.drawable.ic_banner_exemplo)
+        }
+
+
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context, PromocoesActivity::class.java)
+            intent.putExtra("nome_restaurante", restaurante.nome)
+            context.startActivity(intent)
         }
     }
 }

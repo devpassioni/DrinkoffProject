@@ -3,138 +3,196 @@
     "nome": "Mojito",
     "descricao": "Rum branco, hortelã, açúcar, limão e água com gás",
     "preco": 22.00,
-    "imagem": "mojito"
+    "imagem": "mojito.png",
+    "restaurante": "Boteco do BB",
+    "categoria": "Drink"
   },
   {
     "nome": "Caipirinha",
     "descricao": "Cachaça, limão e açúcar",
     "preco": 18.50,
-    "imagem": "caipirinha"
+    "imagem": "caipirinha.png",
+    "restaurante": "Boteco do BB",
+    "categoria": "Drink"
   },
   {
     "nome": "Sex on the Beach",
     "descricao": "Vodka, licor de pêssego, suco de laranja e groselha",
     "preco": 24.00,
-    "imagem": "sex_on_the_beach"
+    "imagem": "sex_on_the_beach.png",
+    "restaurante": "Oishi Park",
+    "categoria": "Drink"
   },
   {
     "nome": "Gin Tônica",
     "descricao": "Gin London Dry, tônica, limão siciliano",
     "preco": 26.00,
-    "imagem": "gin_tonica"
+    "imagem": "gin_tonica.png",
+    "restaurante": "Oishi Park",
+    "categoria": "Drink"
   },
   {
     "nome": "Piña Colada",
     "descricao": "Rum, leite de coco e suco de abacaxi",
     "preco": 25.00,
-    "imagem": "pina_colada"
+    "imagem": "pina_colada.png",
+    "restaurante": "Oishi Park",
+    "categoria": "Drink"
   },
   {
     "nome": "Bloody Mary",
     "descricao": "Vodka, suco de tomate, limão, pimenta e temperos",
     "preco": 23.00,
-    "imagem": "bloody_mary"
+    "imagem": "bloody_mary.png",
+    "restaurante": "Oishi Park",
+    "categoria": "Drink"
   },
   {
     "nome": "Cerveja Heineken Long Neck",
     "descricao": "330ml, puro malte, gelada",
     "preco": 10.00,
-    "imagem": "heineken"
+    "imagem": "heineken_long_neck.png",
+    "restaurante": "Mundo Beer",
+    "categoria": "Cerveja"
   },
   {
     "nome": "Cerveja Brahma Duplo Malte",
     "descricao": "Lata 350ml, gelada",
     "preco": 6.50,
-    "imagem": "brahma_duplo_malte"
+    "imagem": "brahma_duplo_malte",
+    "restaurante": "Mundo Beer",
+    "categoria": "Cerveja"
   },
   {
     "nome": "Cerveja Corona",
     "descricao": "355ml, com limão opcional",
     "preco": 12.00,
-    "imagem": "corona"
+    "imagem": "corona.png",
+    "restaurante": "Mundo Beer",
+    "categoria": "Cerveja"
   },
   {
     "nome": "Cerveja Budweiser",
     "descricao": "600ml, puro malte",
     "preco": 13.00,
-    "imagem": "budweiser"
+    "imagem": "budweiser",
+    "restaurante": "Disk Breja",
+    "categoria": "Cerveja"
   },
   {
     "nome": "Refrigerante Coca-Cola",
     "descricao": "Lata 350ml",
     "preco": 6.00,
-    "imagem": "coca_cola"
+    "imagem": "coca_cola.png",
+    "restaurante": "Disk Breja",
+    "categoria": "Refrigerante"
   },
   {
     "nome": "Refrigerante Guaraná Antártica",
     "descricao": "Lata 350ml",
     "preco": 5.50,
-    "imagem": "guarana"
+    "imagem": "guarana",
+    "restaurante": "Mundo Beer",
+    "categoria": "Refrigerante"
   },
   {
     "nome": "Refrigerante Fanta Uva",
     "descricao": "Lata 350ml",
     "preco": 5.50,
-    "imagem": "fanta_uva"
+    "imagem": "fanta_uva.png",
+    "restaurante": "Boteco do BB",
+    "categoria": "Refrigerante"
   },
   {
     "nome": "Água com Gás",
     "descricao": "500ml, gelada",
     "preco": 4.00,
-    "imagem": "agua_com_gas"
+    "imagem": "agua_com_gas.png",
+    "restaurante": "Disk Breja",
+    "categoria": "Água"
   },
   {
     "nome": "Água sem Gás",
     "descricao": "500ml, gelada",
     "preco": 3.50,
-    "imagem": "agua_sem_gas"
+    "imagem": "agua.png",
+    "restaurante": "Disk Breja",
+    "categoria": "Água"
   },
   {
     "nome": "Energético Red Bull",
     "descricao": "Lata 250ml",
     "preco": 12.00,
-    "imagem": "red_bull"
+    "imagem": "redbull.png",
+    "restaurante": "Pub Garden",
+    "categoria": "Energético"
   },
   {
     "nome": "Energético Monster",
     "descricao": "Lata 473ml",
     "preco": 14.00,
-    "imagem": "monster"
+    "imagem": "monster",
+    "restaurante": "Disk Breja",
+    "categoria": "Energético"
   },
   {
     "nome": "Suco Natural de Laranja",
     "descricao": "Suco 100% natural, sem adição de açúcar",
     "preco": 8.00,
-    "imagem": "suco_laranja"
+    "imagem": "suco_laranja",
+    "restaurante": "Let's Eat",
+    "categoria": "Suco"
   },
   {
     "nome": "Suco Detox",
     "descricao": "Couve, limão, gengibre e maçã",
     "preco": 9.00,
-    "imagem": "suco_detox"
+    "imagem": "suco_detox.png",
+    "restaurante": "Oishi Park",
+    "categoria": "Suco"
   },
   {
     "nome": "Drink Sem Álcool - Sunset",
     "descricao": "Suco de abacaxi, groselha e hortelã",
     "preco": 10.00,
-    "imagem": "drink_sunset"
+    "imagem": "sunset.png",
+    "restaurante": "Let's Eat",
+    "categoria": "Sem Álcool"
   },
   {
     "nome": "Drink Sem Álcool - Citrus Mix",
     "descricao": "Suco de limão, laranja, soda e gelo",
     "preco": 10.00,
-    "imagem": "citrus_mix"
+    "imagem": "citrus_mix",
+    "restaurante": "Let's Eat",
+    "categoria": "Sem Álcool"
   },
   {
     "nome": "Shot de Tequila",
     "descricao": "Tequila com sal e limão",
     "preco": 9.00,
-    "imagem": "shot_tequila"
+    "imagem": "shot_tequila",
+    "restaurante": "Disk Paradise",
+    "categoria": "Shot"
   },
   {
     "nome": "Shot de Cachaça",
     "descricao": "Cachaça artesanal, 50ml",
     "preco": 6.00,
-    "imagem": "shot_cachaca"
+    "imagem": "shot_cachaca",
+    "restaurante": "Disk Breja",
+    "categoria": "Shot"
+  },
+
+  {
+    "nome": "Double Chopp no Desconto",
+    "descricao": "Choppzinho 500ml",
+    "preco": 12.00,
+    "imagem": "doublechopp.png",
+    "restaurante": "Magnólia",
+    "categoria": "Cerveja"
   }
+
+
+
 ]

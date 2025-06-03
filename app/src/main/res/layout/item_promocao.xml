@@ -1,0 +1,58 @@
+<!-- item_promocao.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/bg_card"
+    android:layout_marginBottom="12dp">
+
+    <ImageView
+        android:id="@+id/imgProduto"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvNomeProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Produto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="6dp" />
+
+    <TextView
+        android:id="@+id/tvRestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurante: Nome"
+        android:textSize="14sp"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 00.00"
+        android:textSize="14sp"
+        android:textColor="#388E3C"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/tvVoucher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voucher: ABC-123"
+        android:textSize="13sp"
+        android:textColor="#555"
+        android:paddingTop="2dp" />
+
+    <Button
+        android:id="@+id/btnGerarVoucher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gerar Voucher"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

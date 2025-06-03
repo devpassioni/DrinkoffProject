@@ -1,0 +1,74 @@
+[
+  {
+    "nome": "Boteco do BB",
+    "imagem": "boteco_do_bb.png",
+    "categorias": {
+      "Drinks": ["Caipirinha", "Mojito", "Sex on the Beach"],
+      "Vinho": ["Merlot", "Cabernet Sauvignon"]
+    }
+  },
+  {
+    "nome": "Pub Garden",
+    "imagem": "garden_pub.png",
+    "categorias": {
+      "Cerveja": ["IPA", "Pilsen", "Stout"],
+      "Drinks": ["Gin Tônica", "Martini"]
+    }
+  },
+  {
+    "nome": "Let's Eat",
+    "imagem": "letseat.png",
+    "categorias": {
+      "Beba em Casa": ["Chardonnay", "Tinto Seco", "Rosé"],
+      "*Cerveja*": ["IPA", "Pilsen", "Stout"]
+    }
+  },
+  {
+    "nome": "Disk Paradise",
+    "imagem": "disk_indaia.png",
+    "categorias": {
+      "Drinks": ["Caipiroska", "Cosmopolitan", "Tequila Sunrise"],
+      "Destilado": ["Vodka", "Whisky"]
+    }
+  },
+  {
+    "nome": "Mundo Beer",
+    "imagem": "mundo_beer.png",
+    "categorias": {
+      "Cerveja": ["Lager", "Weiss", "APA"]
+    }
+  },
+  {
+    "nome": "Disk Breja",
+    "imagem": "diskbreja.png",
+    "categorias": {
+      "Sem Álcool": ["Suco Natural", "Refrigerante", "Água de Coco"],
+      "Cerveja": ["Suco Natural", "Refrigerante", "Água de Coco"],
+      "Destilado": ["Vodka", "Whisky"]
+    }
+  },
+  {
+    "nome": "Grand Cru",
+    "imagem": "grand_cru.png",
+    "categorias": {
+      "Vinho": ["Rosé", "Branco Doce"],
+      "Drinks": ["Bellini", "Spritz"]
+    }
+  },
+  {
+    "nome": "Oishi Park",
+    "imagem": "oishipark.png",
+    "categorias": {
+      "Drinks": ["Long Island", "Bloody Mary", "Gin Tônica"],
+      "Cerveja": ["Lager", "Red Ale"]
+    }
+  },
+  {
+    "nome": "Magnólia",
+    "imagem": "magnolia.png",
+    "categorias": {
+      "Drinks": ["Caipirinha", "Margarita"],
+      "Beba em Casa": ["Chá Gelado", "Água com gás"]
+    }
+  }
+]

@@ -21,7 +21,7 @@ class HomeActivity : AppCompatActivity() {
 
         supportActionBar?.title = "Página Inicial"
 
-        // Botão de logout
+
         val btnLogout = findViewById<Button>(R.id.btnLogout)
         btnLogout.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
@@ -29,7 +29,7 @@ class HomeActivity : AppCompatActivity() {
             finish()
         }
 
-        // Barra de pesquisa
+
         searchBar = findViewById(R.id.searchBar)
         searchBar.setOnEditorActionListener { _, actionId, _ ->
             if (actionId == EditorInfo.IME_ACTION_SEARCH) {
@@ -41,7 +41,7 @@ class HomeActivity : AppCompatActivity() {
             }
         }
 
-        // Categorias rápidas
+
         categoriaViews = listOf(
             findViewById(R.id.cardVinho),
             findViewById(R.id.cardCerveja),

@@ -22,18 +22,18 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.login)
 
-        // Ajuste de padding do sistema
+        // Deixa o padding padrão comum msm não altera nada disso.
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        // Criar os arquivos JSON se não existirem
+
         criarArquivoJsonSeNaoExistir("usuarios.json")
         criarArquivoJsonSeNaoExistir("cadastro.json")
 
-        // Referências dos componentes
+
         val etEmail = findViewById<EditText>(R.id.etEmail)
         val etSenha = findViewById<EditText>(R.id.etSenha)
         val btnLogin = findViewById<Button>(R.id.btnLogin)
